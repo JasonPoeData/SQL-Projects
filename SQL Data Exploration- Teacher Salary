@@ -1,5 +1,7 @@
-/* Teachers salary Data Exploration. 
-skills demonstrated include: Creating a database, creating tables, manually adding data to tables, ability to retrieve only relevant data, sorting and filter results based on certain metrics*/
+/* Teachers salary Data Exploration.
+
+skills demonstrated include: Creating a database, creating tables, manually adding data to tables, ability to retrieve only relevant data,
+sorting and filter results based on certain metrics*/
 
 /* creates a database in server called 'Analysis'*/
 
@@ -52,7 +54,8 @@ SELECT first_name, last_name, salary
 FROM teachers
 ORDER BY salary DESC;
  
- /* ordering by 'school' ascending and 'hire_date' descending, the 'school' names returned in alphabetical order and "hire_date' return with the most recent dates appearing first*/ 
+ /* ordering by 'school' ascending and 'hire_date' descending, the 'school' names returned in alphabetical order and "hire_date' 
+ return with the most recent dates appearing first*/ 
  
 SELECT last_name, school, hire_date
 FROM teachers
