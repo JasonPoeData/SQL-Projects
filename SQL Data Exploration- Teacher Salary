@@ -8,8 +8,8 @@ sorting and filter results based on certain metrics*/
 CREATE DATABASE Analysis;
 
 /* creates a table with the Analysis database called 'teachers'.
-
 Then creates the following columns with there associated datatype*/
+
 CREATE TABLE teachers ( 
 id bigserial,
 first_name varchar(25),
